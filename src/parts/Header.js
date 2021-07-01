@@ -28,17 +28,17 @@ export default function Header(props) {
 		      	<span className="Text-header">Beranda</span>
           </Nav.Link>
 
-          <Nav.Link href="/news">
+          <Nav.Link href="/news.js">
             <InfoSquareFill className="Icon-header"/>
 			      <span className="Text-header">Berita</span>
           </Nav.Link>
 
-          <Nav.Link href="/help">
+          <Nav.Link href="/help.js">
             <QuestionSquareFill className="Icon-header"/>
 			      <span className="Text-header">Bantuan</span>
           </Nav.Link>
 
-          <Nav.Link href="/about">
+          <Nav.Link href="/about.js">
             <PersonFill className="Icon-header"/>
 			      <span className="Text-header">Tentang Saya</span>
           </Nav.Link>
