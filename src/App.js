@@ -1,10 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
-import LandingPages from "./pages/LandingPages";
-import About from "./pages/About";
-import Help from "./pages/Help";
-import News from "./pages/News";
+import LandingPages from "./pages/LandingPages.js";
+import About from "./pages/About.js";
+import Help from "./pages/Help.js";
+import News from "./pages/News.js";
 function App() {
   return (
     <Router>

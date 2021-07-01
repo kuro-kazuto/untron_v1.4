@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import Header from "../parts/Header";
-import Footer from "../parts/Footer";
+import Header from "../parts/Header.js";
+import Footer from "../parts/Footer.js";
 import ReactDOM from "react-dom";
-import Clock from "../parts/Clock";
+import Clock from "../parts/Clock.js";
 import logo from "../UNTRON.png";
 import bgn from "../background.jpg";
 export default class News extends Component {
