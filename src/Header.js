@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../UNTRON.png";
+import logo from "./UNTRON.png";
 import { Navbar } from "react-bootstrap";
 import { Nav } from "react-bootstrap";
 import { Form } from "react-bootstrap";
@@ -28,17 +28,17 @@ export default function Header(props) {
 		      	<span className="Text-header">Beranda</span>
           </Nav.Link>
 
-          <Nav.Link href="/news.js">
+          <Nav.Link href="/news">
             <InfoSquareFill className="Icon-header"/>
 			      <span className="Text-header">Berita</span>
           </Nav.Link>
 
-          <Nav.Link href="/help.js">
+          <Nav.Link href="/help">
             <QuestionSquareFill className="Icon-header"/>
 			      <span className="Text-header">Bantuan</span>
           </Nav.Link>
 
-          <Nav.Link href="/about.js">
+          <Nav.Link href="/about">
             <PersonFill className="Icon-header"/>
 			      <span className="Text-header">Tentang Saya</span>
           </Nav.Link>

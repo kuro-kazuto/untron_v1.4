@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import Footer from "../parts/Footer.js";
-import Header from "../parts/Header.js";
-import logo from "../UNTRON.png";
-import bgn from "../background.jpg";
-import bgn1 from "../background1.jpg";
+import Footer from "./Footer";
+import Header from "./Header";
+import logo from "./UNTRON.png";
+import bgn from "./background.jpg";
+import bgn1 from "./background1.jpg";
 export default class LandingPages extends Component {
   render() {
     return (
